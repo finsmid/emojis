@@ -1,6 +1,7 @@
 import { v4 as uuid } from "uuid";
 import "./App.css";
 import EmojisList from "./apps/EmojisList";
+import Header from "./apps/Header";
 
 const emojis = [
   { id: uuid(), emoji: "😀" },
@@ -10,6 +11,7 @@ const emojis = [
 function App() {
   return (
     <div>
+      <Header />
       <EmojisList emojis={emojis} />
     </div>
   );
