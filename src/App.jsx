@@ -4,8 +4,8 @@ import EmojisList from "./apps/EmojisList";
 import Header from "./apps/Header";
 
 const emojis = [
-  { id: uuid(), emoji: "😀" },
-  { id: uuid(), emoji: "🥲" },
+  { id: uuid(), emoji: "👩🏻‍🦰" },
+  { id: uuid(), emoji: "👀" },
 ];
 
 function App() {
