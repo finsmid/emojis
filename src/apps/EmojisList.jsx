@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { v4 as uuid } from "uuid";
 
-const emojiCollection = ["👈🏻", "🥵", "💦", "🤰🏻"];
+const emojiCollection = ["🥶", "😡", "😈", "🤢", "😶‍🌫️"];
+// const emojiCollection = ["👈🏻", "🥵", "💦", "🤰🏻"];
 
 export default function EmojisList({ emojis }) {
   const [emo, setEmo] = useState(emojis);
